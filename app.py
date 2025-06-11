@@ -195,14 +195,14 @@ df[["mean of stars", "review_length", "sentiment_polarity", "sentiment_label"]].
 # ax.axis("off")
 # st.pyplot(fig_wc)
 
-"""## 4. Launch the Streamlit App in Colab with ngrok"""
+# """## 4. Launch the Streamlit App in Colab with ngrok"""
 
-# Step 1: Start the Streamlit server in the background
-!nohup streamlit run app.py --server.port 8501 > log.txt 2>&1 &
+# # Step 1: Start the Streamlit server in the background
+# !nohup streamlit run app.py --server.port 8501 > log.txt 2>&1 &
 
-# Step 2: Create public tunnel using ngrok
-!ngrok config add-authtoken 2yKp6cLep6WfiaLa1rXXgnL3Pzu_5ddtHWVogadndJxaz3M9s
+# # Step 2: Create public tunnel using ngrok
+# !ngrok config add-authtoken 2yKp6cLep6WfiaLa1rXXgnL3Pzu_5ddtHWVogadndJxaz3M9s
 
-from pyngrok import ngrok
-public_url = ngrok.connect(8501)
-print(f"🚀 Streamlit app is live at: {public_url}")
+# from pyngrok import ngrok
+# public_url = ngrok.connect(8501)
+# print(f"🚀 Streamlit app is live at: {public_url}")
