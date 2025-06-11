@@ -2,8 +2,6 @@
 
 An interactive dashboard for exploring IMDB movie reviews through sentiment analysis, built with Streamlit and NLP.
 
-![dashboard-preview](https://user-images.githubusercontent.com/your-screenshot-url-here.png)
-
 ---
 
 ## 🔗 Live Demo
@@ -50,7 +48,7 @@ pip install -r requirements.txt
 
 # 3. Run the app locally
 streamlit run app.py
-
+```
 ---
 
 ## 🙋‍♂️ About Me
